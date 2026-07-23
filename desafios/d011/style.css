@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.container {
+    position: relative;
+}
+
+.fundo {
+    width: 100%;
+    display: block;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;      /* Distância do topo */
+    left: 50%;     /* Distância da esquerda */
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
